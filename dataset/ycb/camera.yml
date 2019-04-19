@@ -1,0 +1,15 @@
+# Tejani et al. (ECCV 2014)
+# Camera: Primesense Carmine 1.09
+
+# Depth scaling - multiply the depth images with this factor to get depth in mm.
+depth_scale: 1.0
+
+# Intrinsic camera parameters
+# IMPORTANT: For some datasets, the parameters may be different for each image
+# (see description of the SIXD dataset format for more info).
+width: 640
+height: 480
+fx: 571.9737
+fy: 571.0073
+cx: 319.5000
+cy: 239.5000
